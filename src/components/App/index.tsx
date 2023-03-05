@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { getAll, getById, clearPosts } from '../../store/dataSlice'
 import { Button } from '../ui/Button'
 import { CardPokemon } from '../CardPokemon'
@@ -81,5 +81,3 @@ export const App = () => {
         </div>
     )
 }
-
-export default React.memo(App)
