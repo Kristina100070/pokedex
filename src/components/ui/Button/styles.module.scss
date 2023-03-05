@@ -1,0 +1,14 @@
+@import '../../../styles/constants.scss';
+@import '../../../styles/typography.scss';
+.button {
+    border: none;
+    background-color: $secondery;
+    border-radius: 52px;
+    cursor: pointer;
+    color: $base;
+    padding: 8px 80px;
+    @include text;
+}
+.button:disabled {
+    opacity: 0.7;
+}

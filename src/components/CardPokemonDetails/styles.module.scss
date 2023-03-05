@@ -1,0 +1,21 @@
+@import '../../styles/constants.scss';
+.container {
+    border-radius: 20px;
+    padding: 40px;
+    min-width: 800px;
+    min-height: 600px;
+    background-color: $lightGrey;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    & img {
+        width: 400px;
+        height: 400px;
+        border: 3px solid $darkGrey;
+        padding: 20px;
+        border-radius: 12px;
+    }
+}
+.desc {
+}

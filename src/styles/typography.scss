@@ -1,0 +1,23 @@
+@import './constants.scss';
+@mixin h1 {
+    font-family: 'ClashDisplay-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 40px;
+}
+@mixin h4 {
+    font-family: 'ClashDisplay-Semibold';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 24px;
+    margin: 0;
+}
+@mixin text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 18px;
+}

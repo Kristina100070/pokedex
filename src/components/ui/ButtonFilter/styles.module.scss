@@ -1,0 +1,39 @@
+@import '../../../styles/constants.scss';
+@import '../../../styles/typography.scss';
+.button {
+    border: none;
+    background-color: transparent;
+    border-radius: 52px;
+    cursor: pointer;
+    color: $base;
+    padding: 6px 20px;
+    margin-right: 10px;
+    @include text;
+}
+.fire {
+    border: 2px solid $fire;
+}
+.grass {
+    border: 2px solid $grass;
+}
+.water {
+    border: 2px solid $water;
+}
+.bug {
+    border: 2px solid $bug;
+}
+.normal {
+    border: 2px solid $normal;
+}
+.poison {
+    border: 2px solid $poison;
+}
+.electric {
+    border: 2px solid $electric;
+}
+.ground {
+    border: 2px solid $ground;
+}
+.fairy {
+    border: 2px solid $fairy;
+}
